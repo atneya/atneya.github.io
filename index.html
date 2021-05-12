@@ -1,11 +1,13 @@
 ---
 layout: default
+pagination:
+    enabled: true
 title: Home
 cover: false
 about: 'about.html'
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+<header class="main-header no-cover" {% unless paginator.page == 1 %} style="height: 20%" {% endunless %}>
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
@@ -48,8 +50,18 @@ about: 'about.html'
                 <img class="author-thumb" src="{{'/assets/images/profile.png' | relative_url}}" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 1 %} 
+                on
+                {% for category in post.categories %}
+                    {% if category == post.categories.last %}
+                    and <a href="/category/{{ category | slugify }}">{{ category }}</a>. 
+                    {% else %}
+                    <a href="/category/{{ category | slugify }}">{{ category }}</a>,
+                    {% endif %}  
+                {% endfor %}
+            {% elsif post.categories.size == 1%}
+                on
+                    <a href="/category/{{ post.categories.last | slugify }}">{{ post.categories.last }}</a>.
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
@@ -60,5 +72,4 @@ about: 'about.html'
     {% endfor %}
 
     {% include pagination.html %}
-
 </main>

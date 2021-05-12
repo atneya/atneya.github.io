@@ -1,62 +1,26 @@
-# Kasper
+# Personal Website
 
-This is a port of Ghost's default theme [Casper v1](https://github.com/tryghost/casper) for Jekyll. Here is a live [demo](https://rosario.io/kasper). 
+This repository holds the source-code of my personal website and blog which is statically
+generated via [Jekyll](https://jekyllrb.com/). You can find more reasoning regarding the 
+technical and design choices I made in one of my early [posts](https://atneya.com).
 
-Feel free to fork, change, modify and re-use it.
+## Build
 
-## Installation
-
-    git clone https://github.com/rosario/kasper.git
-    cd kasper
-    gem install jekyll
-    gem install jekyll-paginate
-    
-## Change _config.yml
-
-Change the following settings in _config.yaml. Most likely you want the `baseurl: ""`
-
-```
-baseurl: ""
-domain_name: "yourblog-domain.com"
-```
-
-## How to use it
-
-Build page and start local web server
-
-    jekyll serve
-
-Build page into `_site` folder
-
-    jekyll build
-
-## Kasper theme includes
-
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
-
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+In order to build the website locally, using bundler and the included gemfile along with Jekyll
+is sufficient. In particular, the command 
+`bundle exec jekyll serve` is sufficient.
 
 
-## Thanks
 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
+## Credits
 
-## Copyright & License
+The themeing of this site was forked from [Kasper](https://github.com/rosario/kasper) which was 
+in-turn a port of Ghost's default theme to Jekyll.
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+The auto-generation of the site on Github Pages utilizes a workflow that statically generates 
+the website files and pushes to the `gh-pages` branch. This workflow is found at
+[Jekyll Action](https://github.com/helaili/jekyll-action).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The pagination for the main page and auto-pagination for post categories is handled by 
+[Jekyll-Paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2).
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

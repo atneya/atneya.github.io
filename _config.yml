@@ -1,19 +1,45 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Atneya Nair
+description: Writing and some projects
+#meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
-baseurl: /kasper
-domain_name: "http://yourblog-domain.com"
-google_analytics: "UA-XXXXXXXX-X"
-plugins: [jekyll-paginate]
-
+baseurl: "" 
+domain_name: "https://atneya.com"
+permalink: /:slugified_categories/:year/:y_day/:title
+#google_analytics: "UA-XXXXXXXX-X"
+plugins: [jekyll-paginate-v2]
+pagination: 
+  enabled: true
+  per_page: 2 
+  sort_reverse: true
+autopages:
+  enabled: true
+  # Category pages, omit entire config element to disable
+  categories: 
+    # Optional, the list of layouts that should be processed for every category found in the site
+    layouts: 
+      - 'paginate_layout.html'
+    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+    title: 'Posts in category :cat'
+    # Optional, the permalink for the  pagination page (:cat is replaced), 
+    # the pagination permalink path is then appended to this permalink structure
+    permalink: '/category/:cat'
+    # Optional, when true logging related to category pages will be supressed.
+    silent: false
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+  collections:
+     layouts: 
+      - 'paginate_layout.html'
+  tags:
+     layouts: 
+      - 'paginate_layout.html'
 # Details for the RSS feed generator
 url: ""
-author: "Your Name"
+author: "Atneya Nair"
 
 # Disqus config
 disqus-shortname: ""

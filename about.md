@@ -3,4 +3,6 @@ layout: page
 title: About me 
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I am a software developer interested in embedded systems and kernel code.
+
+Here are some of my projects:
