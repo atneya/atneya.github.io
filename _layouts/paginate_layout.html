@@ -34,8 +34,23 @@ title: page.autopages.display_name
                 <img class="author-thumb" src="{{'/assets/images/profile.png' | relative_url}}" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 2 %} 
+                on
+                {% for category in post.categories %}
+                    {% if category == post.categories.last %}
+                    and <a href="/category/{{ category | slugify }}">{{ category }}</a>. 
+                    {% else %}
+                    <a href="/category/{{ category | slugify }}">{{ category }}</a>,
+                    {% endif %}  
+                {% endfor %}
+            {% elsif post.categories.size == 2 %}
+                on
+                    <a href="/category/{{ post.categories.first | slugify }}">{{ post.categories.first }}</a> and 
+                    <a href="/category/{{ post.categories.last | slugify }}">{{ post.categories.last }}</a>.
+ 
+            {% elsif post.categories.size == 1%}
+                on
+                    <a href="/category/{{ post.categories.last | slugify }}">{{ post.categories.last }}</a>.
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}

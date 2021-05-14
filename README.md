@@ -24,3 +24,5 @@ the website files and pushes to the `gh-pages` branch. This workflow is found at
 The pagination for the main page and auto-pagination for post categories is handled by 
 [Jekyll-Paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2).
 
+Modified timestamps utilize [jekyll-last-modified-at](https://github.com/gjtorikian/jekyll-last-modified-at)
+to provide timestamps based on git.
