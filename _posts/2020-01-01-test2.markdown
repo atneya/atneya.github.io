@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Test 2"
-date:   2020-01-01 10:19:00
-categories: [Test Category a, Comedy]
----
-Test 3.
