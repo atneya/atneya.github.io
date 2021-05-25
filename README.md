@@ -27,3 +27,9 @@ The pagination for the main page and auto-pagination for post categories is hand
 
 Modified timestamps utilize [jekyll-last-modified-at](https://github.com/gjtorikian/jekyll-last-modified-at)
 to provide timestamps based on git.
+
+### License
+
+The original source repository which this repository was forked from is licensed by the Ghost Foundation under the MIT license.
+All modifications by me to code are licensed under the MIT license.
+All writing (included in the _posts directory) is not licensed for reproduction. Please do not take or share my writing without permission. 
