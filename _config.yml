@@ -1,15 +1,16 @@
+title: "Atneya's Blog"
 name: Atneya Nair
 description: Writing and some projects
-#meta_description: "Your New Jekyll Site, Blogging about stuffs"
+author: "Atneya Nair"
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 baseurl: "" 
-domain_name: "https://atneya.com"
+url: "https://atneya.com"
 permalink: /:slugified_categories/:year/:y_day/:title
 #google_analytics: "UA-XXXXXXXX-X"
-plugins: [jekyll-paginate-v2]
+plugins: [jekyll-paginate-v2, jekyll-feed]
 pagination: 
   enabled: true
   per_page: 5 
@@ -37,9 +38,6 @@ autopages:
   tags:
      layouts: 
       - 'paginate_layout.html'
-# Details for the RSS feed generator
-url: ""
-author: "Atneya Nair"
 
 # Disqus config
 disqus-shortname: ""
