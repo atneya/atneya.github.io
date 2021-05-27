@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://atneya.com/feed/index.xml" rel="self" type="application/atom+xml" /><link href="https://atneya.com/" rel="alternate" type="text/html" /><updated>2021-05-27T20:04:29+00:00</updated><id>https://atneya.com/feed/index.xml</id><title type="html">Atneya’s Blog</title><subtitle>Writing and some projects</subtitle><author><name>Atneya Nair</name></author><entry><title type="html">On Blogging</title><link href="https://atneya.com/professional/2021/138/on-blogging" rel="alternate" type="text/html" title="On Blogging" /><published>2021-05-18T18:00:00+00:00</published><updated>2021-05-27T20:03:42+00:00</updated><id>https://atneya.com/professional/2021/138/on-blogging</id><content type="html" xml:base="https://atneya.com/professional/2021/138/on-blogging">&lt;p&gt;It is difficult to start a blog without including acknowledgement that it is happening.&lt;/p&gt;
+
+&lt;p&gt;However, the goal of this post is contextual not introductory. There are many different types of self-published&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; content
+created (now more so than ever), so I find it helpful to both myself and my readers to offer a broad outline.&lt;/p&gt;
+
+&lt;p&gt;As a preamble, I would like to note that I plan to quickly publish a few posts that I have been thinking of writing for several years.
+In addition, I offer the following disclaimer courtesy of Blaise Pascal:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I have made this longer than usual because I have not had time to make it shorter.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Unfortunately, the somewhat dangerous adage that &lt;a href=&quot;https://www.joelonsoftware.com/2009/09/23/the-duct-tape-programmer/&quot;&gt;shipping is a feature&lt;/a&gt; applies here:
+perfectionism is particularly insidious when it comes to publishing creative work. As such, I will content myself with the ability to edit this post in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-start-a-blog-in-2021&quot;&gt;Why Start a Blog in 2021?&lt;/h3&gt;
+
+&lt;p&gt;There have been no shortages of elegies for the blog over the past decade (and probably long before that).
+Bold assertations about technological trends like this are easy to dismiss at the risk of glossing over some truth. 
+For example, the death of websites such as Google Reader (one of the most popular methods to access blog content) certainly made it much more difficult 
+for blogs to be followed by a dedicated audience.
+Many popular blogs have been discontinued or become irregular, as their creators move to other platforms or focus less on blogging (two giants are 
+&lt;a href=&quot;https://www.joelonsoftware.com/&quot;&gt;Joel on Software&lt;/a&gt; and &lt;a href=&quot;https://blog.codinghorror.com/about-me/&quot;&gt;Coding Horror&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The growing popularity of alternative mediums for people who want to say something on the internet choked out the early niche in which blogging had been lying in:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Micro-blogging platforms offer a convenient alternative for short-form content&lt;/li&gt;
+  &lt;li&gt;Podcasting offers the ability to listen while commuting or similar&lt;/li&gt;
+  &lt;li&gt;Video content is generally more engaging to a viewer than written content is to a reader&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Perhaps most problematically, the competitive advantage of less network intensiveness no longer applies.
+As a big fan of podcasts (mainly for entertainment, though) and a reluctant viewer of a fair amount of video content, it is hard to discount these effects.
+So, at the very least starting a blog is a time commitment in a field which lacks explosive growth. This is certainly an anathema in software engineering culture.
+So why do it?&lt;/p&gt;
+
+&lt;h4 id=&quot;ideas-and-communication&quot;&gt;Ideas and Communication&lt;/h4&gt;
+
+&lt;p&gt;Without becoming too &lt;a href=&quot;https://plato.stanford.edu/entries/peirce-semiotics/&quot;&gt;philosophical&lt;/a&gt;, it is difficult to find purpose for an idea absent of communication.
+In that regard, my primary goal is to have and share ideas, and the latter is &lt;strong&gt;probably&lt;/strong&gt; necessary for the former. 
+I have found that having to concretely communicate (and defend) an idea is fundamental to its full construction – whether in written or spoken form.
+As such, as someone who enjoys learning and having new ideas (and attempting to steer clear of the third rail of pretension that lies alongside that statement), 
+it is beneficial to form a communication channel which does not require finding a willing peer.
+And so, we find a willing listener in the abstract online audience. Again, I am trying to to avoid the philosophy of whether a blog requires readers to be considered a form of communication,
+so I will presume that &lt;em&gt;someone&lt;/em&gt; will read these posts, and as such, write for that audience.&lt;/p&gt;
+
+&lt;h4 id=&quot;open-sourcing-ideas&quot;&gt;Open Sourcing Ideas&lt;/h4&gt;
+
+&lt;p&gt;Although the practice of faithfully keeping up with scores of blogs with frequent updates is passe, many people interact with blogs on a daily basis.
+In particular, a more typical mode of access involves searching for a question or a few key terms, and then quickly reading a blog with the content that you were looking for (think recipes and financial tips).
+As a software developer, I spent a lot of time looking things up. A lot of the information I am looking for can be found in a developer blog, who had the exact same problem as I did or who posted a tutorial or introductory lesson in the topic I am interested in.&lt;/p&gt;
+
+&lt;p&gt;In the interest of giving back (and without thinking about it too &lt;a href=&quot;https://en.wikipedia.org/wiki/Reciprocal_altruism&quot;&gt;cynically&lt;/a&gt;), a blog allows me to share both areas of expertise
+and quick lessons to help others avoid some pain. It also allows me to create a resource for myself to refer to in the future – why make a personal wiki a walled garden?
+Many of the underlying principles advocating for open source software apply in equal measure to sharing higher level ideas.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-comparison-of-mediums&quot;&gt;A Comparison of Mediums&lt;/h4&gt;
+
+&lt;p&gt;The previous two points lend themselves equally to video, audio, or micro-blogging content.
+Despite this, I see a few key advantages of utilizing a blog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Written content has a better &lt;a href=&quot;https://en.wikipedia.org/wiki/Signal-to-noise_ratio&quot;&gt;SNR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;There is less friction to create when compared to video and audio&lt;/li&gt;
+  &lt;li&gt;Avoids reliance on a platform&lt;/li&gt;
+  &lt;li&gt;Better indexability for search engines&lt;/li&gt;
+  &lt;li&gt;Nuance and quality instead of brevity and clickability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not all of the above points apply equally (or at all) to every alternative, and I can see 
+myself exploring other options in the future (with the exception of micro-blogging),
+but for the type of content which I want to produce right now, a blog is the clear answer.&lt;/p&gt;
+
+&lt;h4 id=&quot;personal-enjoyment-and-audience&quot;&gt;Personal Enjoyment and Audience&lt;/h4&gt;
+
+&lt;p&gt;It is difficult to avoid the reality that it is unlikely that my blog will reach an organically growing audience, and it almost certainly will not be beneficial professionally.
+However, I do think it can find an &lt;em&gt;inorganic&lt;/em&gt; audience among my personal and professional networks. I also think that while organic growth is unlikely, it is not 
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Fat-tailed_distribution&quot;&gt;vanishingly&lt;/a&gt; so, especially as time progresses.&lt;/p&gt;
+
+&lt;p&gt;Finally, it should not go without mentioning that I enjoy writing. I did much more of it in high school (as a debater) than I did in college, which I regret.
+Reading and writing are in the small overlapping subset of personally enjoyable and useful activities I can spend time on, and have the added benefit of creating a positive feedback loop with one another.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I think there is an important and interesting discussion regarding what self-publishing means in the context of centralized platforms for content. 
+I plan to discuss this in a future post discussing the technical choices I made setting up my website. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Atneya Nair</name></author><category term="Professional" /><summary type="html">It is difficult to start a blog without including acknowledgement that it is happening. However, the goal of this post is contextual not introductory. There are many different types of self-published1 content created (now more so than ever), so I find it helpful to both myself and my readers to offer a broad outline. As a preamble, I would like to note that I plan to quickly publish a few posts that I have been thinking of writing for several years. In addition, I offer the following disclaimer courtesy of Blaise Pascal: I have made this longer than usual because I have not had time to make it shorter. Unfortunately, the somewhat dangerous adage that shipping is a feature applies here: perfectionism is particularly insidious when it comes to publishing creative work. As such, I will content myself with the ability to edit this post in the future. Why Start a Blog in 2021? There have been no shortages of elegies for the blog over the past decade (and probably long before that). Bold assertations about technological trends like this are easy to dismiss at the risk of glossing over some truth. For example, the death of websites such as Google Reader (one of the most popular methods to access blog content) certainly made it much more difficult for blogs to be followed by a dedicated audience. Many popular blogs have been discontinued or become irregular, as their creators move to other platforms or focus less on blogging (two giants are Joel on Software and Coding Horror). The growing popularity of alternative mediums for people who want to say something on the internet choked out the early niche in which blogging had been lying in: Micro-blogging platforms offer a convenient alternative for short-form content Podcasting offers the ability to listen while commuting or similar Video content is generally more engaging to a viewer than written content is to a reader Perhaps most problematically, the competitive advantage of less network intensiveness no longer applies. As a big fan of podcasts (mainly for entertainment, though) and a reluctant viewer of a fair amount of video content, it is hard to discount these effects. So, at the very least starting a blog is a time commitment in a field which lacks explosive growth. This is certainly an anathema in software engineering culture. So why do it? Ideas and Communication Without becoming too philosophical, it is difficult to find purpose for an idea absent of communication. In that regard, my primary goal is to have and share ideas, and the latter is probably necessary for the former. I have found that having to concretely communicate (and defend) an idea is fundamental to its full construction – whether in written or spoken form. As such, as someone who enjoys learning and having new ideas (and attempting to steer clear of the third rail of pretension that lies alongside that statement), it is beneficial to form a communication channel which does not require finding a willing peer. And so, we find a willing listener in the abstract online audience. Again, I am trying to to avoid the philosophy of whether a blog requires readers to be considered a form of communication, so I will presume that someone will read these posts, and as such, write for that audience. Open Sourcing Ideas Although the practice of faithfully keeping up with scores of blogs with frequent updates is passe, many people interact with blogs on a daily basis. In particular, a more typical mode of access involves searching for a question or a few key terms, and then quickly reading a blog with the content that you were looking for (think recipes and financial tips). As a software developer, I spent a lot of time looking things up. A lot of the information I am looking for can be found in a developer blog, who had the exact same problem as I did or who posted a tutorial or introductory lesson in the topic I am interested in. In the interest of giving back (and without thinking about it too cynically), a blog allows me to share both areas of expertise and quick lessons to help others avoid some pain. It also allows me to create a resource for myself to refer to in the future – why make a personal wiki a walled garden? Many of the underlying principles advocating for open source software apply in equal measure to sharing higher level ideas. A Comparison of Mediums The previous two points lend themselves equally to video, audio, or micro-blogging content. Despite this, I see a few key advantages of utilizing a blog: Written content has a better SNR There is less friction to create when compared to video and audio Avoids reliance on a platform Better indexability for search engines Nuance and quality instead of brevity and clickability Not all of the above points apply equally (or at all) to every alternative, and I can see myself exploring other options in the future (with the exception of micro-blogging), but for the type of content which I want to produce right now, a blog is the clear answer. Personal Enjoyment and Audience It is difficult to avoid the reality that it is unlikely that my blog will reach an organically growing audience, and it almost certainly will not be beneficial professionally. However, I do think it can find an inorganic audience among my personal and professional networks. I also think that while organic growth is unlikely, it is not vanishingly so, especially as time progresses. Finally, it should not go without mentioning that I enjoy writing. I did much more of it in high school (as a debater) than I did in college, which I regret. Reading and writing are in the small overlapping subset of personally enjoyable and useful activities I can spend time on, and have the added benefit of creating a positive feedback loop with one another. Stay tuned! I think there is an important and interesting discussion regarding what self-publishing means in the context of centralized platforms for content. I plan to discuss this in a future post discussing the technical choices I made setting up my website. &amp;#8617;</summary></entry></feed>
